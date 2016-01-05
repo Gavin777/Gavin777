@@ -274,7 +274,7 @@ header .header-content .header-content-inner p {
     height: 100%;
     text-align: center;
     color: #fff;
-    opacity: 0;
+    opacity: 1;
     background: rgba(240,95,64,.9);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -314,6 +314,9 @@ header .header-content .header-content-inner p {
 }
 
 @media(min-width:768px) {
+    .portfolio-box .portfolio-box-caption { 
+        opacity: 0;
+    }
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
         font-size: 16px;
     }
@@ -689,15 +692,4 @@ body {
 #fixed {
     width: 42px;
     height: 42px;
-}
-
-#email {
-    position: relative;
-    top: -5px;
-}
-
-.darkoverlay {
-    width: 100%;
-    background: black;
-    opacity:.5;
 }
