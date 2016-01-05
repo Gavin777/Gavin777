@@ -309,14 +309,13 @@ header .header-content .header-content-inner p {
     opacity: 1;
 }
 
-.back .portfolio-box-caption {
-    opacity: 1;
-}
+
 
 @media(min-width:768px) {
     .portfolio-box .portfolio-box-caption { 
         opacity: 0;
     }
+
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
         font-size: 16px;
     }
@@ -324,6 +323,10 @@ header .header-content .header-content-inner p {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
         font-size: 22px;
     }
+}
+
+.back .portfolio-box-caption {
+    opacity: 1;
 }
 
 .call-to-action h2 {
