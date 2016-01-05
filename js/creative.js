@@ -7,6 +7,12 @@
 (function($) {
     "use strict"; // Start of use strict
 
+
+    $('.flip').click(function(){
+        $(this).find('.card').toggleClass('flipped');
+
+    });
+
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
