@@ -696,3 +696,21 @@ body {
     width: 42px;
     height: 42px;
 }
+
+.flip {
+    cursor: pointer;
+}
+
+.face {
+    overflow: hidden;
+}
+
+@media(max-width: 480px) {
+    .portfolio-box .portfolio-box-caption {
+        background: rgba(240,95,64,.3);
+    }
+
+    .back .portfolio-box .portfolio-box-caption {
+        background: rgba(240,95,64,.8);
+    }
+}
